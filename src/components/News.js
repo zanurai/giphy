@@ -112,7 +112,7 @@ const News = (props) => {
     <>
 
       {/*<div className="text-center" style={{ margin: "30px 0px" }}>*/}
-      <h1 className="text-center" style={{ margin: "30px 0px" }}>News-Top HeadLine  from {capitalizeFirstLetter(props.category)}</h1>
+      <h1 className="text-center" style={{ margin: "70px 0px" }}>News-Top HeadLine  from {capitalizeFirstLetter(props.category)}</h1>
       {giphy && <Spainner />}
 
       <InfiniteScroll
